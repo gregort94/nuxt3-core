@@ -1,30 +1,5 @@
 import type { Config } from "tailwindcss";
-// const {
-//   theme: { colors },
-// } = useAppConfig();
-// const colorsArray =
-const colors = {
-  gray: ["slate", "cool", "zinc", "neutral", "stone"],
-  primary: [
-    "red",
-    "orange",
-    "amber",
-    "yellow",
-    "lime",
-    "green",
-    "emerald",
-    "teal",
-    "cyan",
-    "sky",
-    "blue",
-    "indigo",
-    "violet",
-    "purple",
-    "fuchsia",
-    "pink",
-    "rose",
-  ],
-};
+import colors from "./constants/colors";
 const colorsArray = [...colors.gray, ...colors.primary];
 export default {
   content: [],

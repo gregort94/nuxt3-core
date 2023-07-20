@@ -1,32 +1,12 @@
 import { AppConfigInput } from "nuxt/schema";
+import colors from "./constants/colors";
 
 export default defineAppConfig<AppConfigInput>({
   ui: {
-    primary: "green",
+    primary: "red",
     gray: "neutral",
   },
   theme: {
-    colors: {
-      gray: ["slate", "cool", "zinc", "neutral", "stone"],
-      primary: [
-        "red",
-        "orange",
-        "amber",
-        "yellow",
-        "lime",
-        "green",
-        "emerald",
-        "teal",
-        "cyan",
-        "sky",
-        "blue",
-        "indigo",
-        "violet",
-        "purple",
-        "fuchsia",
-        "pink",
-        "rose",
-      ],
-    },
+    colors,
   },
 });
